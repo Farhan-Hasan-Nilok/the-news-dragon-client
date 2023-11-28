@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@300&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --text-gray: #706F6F;
+  --font-color: #403F3F;
+  --left-nav: #9F9F9F;
+  --bg-btn: #D72050;
+  --bg-gray: #F3F3F3;
+  --rating: #FF8C47;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
+
+.font-color {
+  color: var(--font-color);
+}
+
+.left-nav {
+  color: var(--left-nav);
+}
+
+.nav-btn {
+  width: 6.875rem;
+  height: 3rem;
+  background: var(--bg-btn);
+  color: white;
+  border: 0;
+}
+
+.title-font {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+}
+
+.time {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem
+}
+
+.bg-gray {
+  background: var(--bg-gray);
+}
+
+.profile {
+  width: 2.5625rem;
+  height: 2.5625rem;
+  border-radius: 50%;
+}
+
+.login-btn {
+  width: 8.75rem;
+  height: 2.75rem;
+  background: var(--font-color);
+  color: white;
+}
+
+.nav-active {
+  background: #0d6efd;
+  border-radius: 5px;
+  color: white !important;
+  width: 68px;
+}
+
+.bg-img-height {
+  height: 31.8125rem;
+}
+
+.author-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.color-golden {
+  color: var(--rating);
+}
+
+.pointer-event {
+  cursor: pointer;
+}
+
+.login-page {
+  width: 45rem;
+  height: 30.75rem;
+
+}
+
+.login-page-btn {
+  width: 34.875rem;
+  height: 3.0625rem;
+  background: var(--font-color);
+  color: white;
+}
