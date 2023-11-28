@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {
-  createBrowserRouter, RouterProvider
+  createBrowserRouter, Navigate, RouterProvider
 } from 'react-router-dom'
 import App from './App'
 import About from './pages/About'
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
+      {
+        path: '/',
+        element: <Navigate to='/category/0'></Navigate>
+      },
       {
         path: '/category/:id',
         element: <Category />,
